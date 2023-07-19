@@ -26,6 +26,7 @@ html{
 body{
   margin:0;
   padding: 0;
+  font-family: 'Roboto Slab', serif;
 }
 
 .container{
@@ -44,4 +45,16 @@ li{
 
 a{
   text-decoration: none;
+}
+
+.btn-1{
+  background-color: transparent;
+  border: 5px solid white;
+  padding: var(--size-10) var(--size-10);
+  transition: .3s;
+}
+
+.btn-1:hover{
+  color: var(--emphasis_color);
+  border-color: var(--emphasis_color);
 }

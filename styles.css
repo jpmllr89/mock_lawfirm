@@ -4,11 +4,19 @@ nav{
 }
 
 .navbar{
-    margin: 5px 5px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 var(--size-22);
 }
 
+.navbar_logo img{
+  max-height: 90px;
+  width: auto;
+  margin: auto 0;
+  background-position: center;
+}
 .home_links ul{
   display: flex;
   flex-direction: row;
@@ -16,5 +24,6 @@ nav{
 }
 .home_links ul li a{
   color: white;
-  font-size: var(--size-22);
+  font-size: var(--size-16);
+  text-transform: uppercase;
 }
