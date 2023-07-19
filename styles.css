@@ -1,7 +1,20 @@
-.navbar{
-  background-color: green;
+nav{
+  background-color: var(--main-color);
+  height: var(--size-100);
 }
 
-.container{
-  max-width: 1200px;
+.navbar{
+    margin: 5px 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.home_links ul{
+  display: flex;
+  flex-direction: row;
+  gap: var(--size-22);
+}
+.home_links ul li a{
+  color: white;
+  font-size: var(--size-22);
 }
