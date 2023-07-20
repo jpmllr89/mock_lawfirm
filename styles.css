@@ -1,3 +1,5 @@
+/* navigation bar */
+
 nav{
   background-color: var(--main-color);
   height: var(--size-100);
@@ -26,4 +28,14 @@ nav{
   color: white;
   font-size: var(--size-16);
   text-transform: uppercase;
+}
+
+/* profiles section */
+.profiles{
+  background-color: var(--main-color);
+}
+
+.profile_card img{
+  width: 570px;
+  height: 640px;
 }
