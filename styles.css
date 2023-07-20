@@ -34,8 +34,20 @@ nav{
 .profiles{
   background-color: var(--main-color);
 }
+.profile_grid{
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(2, 50%);
+  gap: 0px;
+}
 
-.profile_card img{
+.profile_card{
   width: 570px;
+}
+.img_wrapper{
+  width: 100%;
   height: 640px;
+}
+.profile_card img{
+  width: 100%;
 }
