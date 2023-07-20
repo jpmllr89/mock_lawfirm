@@ -39,9 +39,28 @@ nav{
 }
 
 /* information section */
+.information{
+  background-color: var(--background-color);
+  margin-top: 0;
+  padding: var(--size-30) 0;
+}
+.information h2{
+  text-align: center;
+  color: var(--main-color);
+  margin-bottom: var(--size-40);
+}
 .points p{
   color: var(--subtext);
   line-height: 1.5;
   letter-spacing: 1px;
   font-size: 18px;
+  margin-bottom: var(--size-40);
+}
+
+.button{
+  width: 33%;
+  margin: var(--size-20) auto;
+}
+.information a{
+  font-size: 16px;
 }
