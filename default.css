@@ -30,7 +30,7 @@ body{
 }
 
 .container{
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -45,6 +45,10 @@ li{
 
 a{
   text-decoration: none;
+}
+h2{
+  font-size: 36px;
+  font-weight: 300;
 }
 
 .btn-1{

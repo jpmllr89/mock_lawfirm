@@ -37,3 +37,11 @@ nav{
   background-size:cover;
   background-position: center center;
 }
+
+/* information section */
+.points p{
+  color: var(--subtext);
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
