@@ -27,3 +27,13 @@ nav{
   font-size: var(--size-16);
   text-transform: uppercase;
 }
+
+/* hero section */
+
+.hero{
+  height: 1000px;
+  background-image: url("assets/images/lawfirm_team.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+}
