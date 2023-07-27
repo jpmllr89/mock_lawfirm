@@ -76,3 +76,18 @@ p{
   font-weight: 600;
   line-height: 1.6;
 }
+
+.btn-3{
+  color: var(--emphasis_color);
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 3px solid var(--emphasis_color);
+    padding: 12px;
+    font-size: var(--size-16);
+    letter-spacing: 1.6px;
+    display: block;
+    width: 330px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 600;
+}

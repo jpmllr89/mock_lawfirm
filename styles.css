@@ -76,7 +76,7 @@ nav{
   color: white;
 }
 
-.profiles p{
+.profiles .container p{
   color: white;
   text-align: center;
 }
@@ -85,6 +85,7 @@ nav{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: var(--size-20);
 }
 
 .profile_card{
@@ -100,18 +101,62 @@ nav{
   position: relative;
 }
 
-.img_wrapper img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  overflow: hidden;
+.p1{
+  background-image: url("assets/images/man5.jpg");
 }
+.p2{background-image: url("assets/images/man2.jpg");
+}
+.p3{
+  background-image: url("assets/images/woman1.jpg");
+}
+.p4{
+  background-image: url("assets/images/man3.jpg");
+}
+.p5{
+  background-image: url("assets/images/woman2.jpg");  
+}
+.p6{
+  background-image: url("assets/images/man4.jpg");
+}
+.p1, .p2, .p3, .p4, .p5, .p6{
+  transition: all .3s ease;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.p1:hover, .p2:hover, .p3:hover, .p4:hover, .p5:hover, .p6:hover{
+  filter: grayscale(100%);
+
+}
+
+
 
 .name_plate{
   position: relative;
   background-color: white;
   height: 100px;
   width: 90%;
-  bottom: 0;
+  bottom: var(--size-100);
+  margin: 0 auto;
   z-index: 100;
+}
+
+.name_plate p{
+  color: var(--emphasis_color);
+  margin: 0;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  padding-top: var(--size-10);
+}
+
+.profession_designation{
+  margin-top: -8px;
+  text-align: center;
+}
+
+.profession_designation span{
+  font-size: var(--size-20);
+  text-transform: uppercase;
+  letter-spacing: 8.5px;
+  color: var(--main-color);
 }
