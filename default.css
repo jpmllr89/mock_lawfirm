@@ -72,9 +72,18 @@ p{
   background-color: var(--emphasis_color);
   color: white;
   padding: var(--size-16);
-  letter-spacing: 1.6px;
+  letter-spacing: 3px;
   font-weight: 600;
   line-height: 1.6;
+  margin: 0 auto;
+  width: fit-content;
+  display: block;
+  text-transform: uppercase;
+}
+
+.btn-2 i{
+  font-size: var(--size-22);
+  margin-right: 10px;
 }
 
 .btn-3{

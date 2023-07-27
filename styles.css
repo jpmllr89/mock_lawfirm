@@ -39,7 +39,7 @@ nav{
 }
 
 /* information section */
-.information{
+.information, .information-2{
   background-color: var(--background-color);
   margin-top: 0;
   padding: var(--size-30) 0;
@@ -162,3 +162,10 @@ nav{
 }
 
 /* Second information section */
+.information-2 h2{
+  text-align: center;
+  color: var(--main-color);
+  margin-bottom: var(--size-40);
+  font-size: var(--size-50);
+  font-weight: 600;
+}
