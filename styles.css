@@ -169,3 +169,8 @@ nav{
   font-size: var(--size-50);
   font-weight: 600;
 }
+
+.footer-flex{
+  display: flex;
+  flex-direction: row;
+}
