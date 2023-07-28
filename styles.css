@@ -227,6 +227,14 @@ nav{
 
 /* SPECIALTIES PAGE */
 /* information_audience */
+.information_audience{
+  text-align: center;
+}
+.information_audience h2, .information_specialties h2{
+  text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
 .information_grid{
   display: flex;
   flex-wrap: wrap;
@@ -244,9 +252,38 @@ nav{
 }
 
 .card p{
-  color: var(--main-color);
   text-transform: uppercase;
   letter-spacing: 1.5px;
   padding-top: 16px;
   font-size: 20px;
+}
+
+.information_specialties{
+  background-color: var(--main-color);
+  padding: var(--size-30) 0;
+  text-align: center;
+}
+
+.information_specialties h2{
+  color: white;
+  margin-bottom: var(--size-40);
+}
+
+.information_audience .card p{
+  color: var(--main-color);
+}
+.information_specialties .card p{
+  color: white;
+}
+
+.information_audience p, .information_specialties p{
+  font-size: 18px;
+}
+
+.information_audience p{
+  color: darkslategray;
+} 
+
+.information_specialties p{
+  color: white;
 }
