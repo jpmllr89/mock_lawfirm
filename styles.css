@@ -232,12 +232,21 @@ nav{
   flex-wrap: wrap;
 }
 
-.img_wrapper{
-  height: 80px;
-  background-color: var(--background-color);
+.img-wrapper{
+  padding: 0 var(--size-20);
 }
 
 .card{
   min-height: 1px;
+  text-align: center;
   width: 33%;
+  margin: var(--size-50) 0 auto;
+}
+
+.card p{
+  color: var(--main-color);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding-top: 16px;
+  font-size: 20px;
 }
