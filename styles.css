@@ -15,7 +15,7 @@ nav{
   max-height: 90px;
   width: auto;
   margin: auto 0;
-  background-position: center;
+  object-position: ;
 }
 .home_links ul{
   display: flex;
@@ -173,4 +173,47 @@ nav{
 .footer-flex{
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  padding: var(--size-30) 0;
+}
+
+.footer_card{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+}
+
+.addressphone{
+  margin: var(--size-20) 0;
+  padding: 0 20px;
+}
+
+.addressphone p{
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--subtext);
+}
+
+.brand p{
+  color: var(--emphasis_color);
+  font-size: 16px;
+  font-style:italic;
+}
+.copy{
+  margin: 30px 0;
+  padding: 0 10px;
+  justify-content: center;
+  color: var(--subtext);
+  font-size: 16px;
+}
+
+
+.footer_card_img_wrapper{
+  margin: 0 auto;
+}
+.footer_card_img_wrapper img{
+  max-height: 100px;
+  object-position: center;
+  margin: 0 auto;
 }
