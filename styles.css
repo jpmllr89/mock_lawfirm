@@ -3,6 +3,14 @@ nav{
   height: var(--size-100);
 }
 
+.toggle_button{
+  display: none;
+}
+
+.toggle_button span{
+  font-size: 30px;
+  color: white;
+}
 .navbar{
     display: flex;
     flex-direction: row;
