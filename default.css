@@ -52,10 +52,17 @@ h2{
   font-weight: 300;
   margin: 0;
 }
+
+h5{
+  margin: 0;
+}
 p{
   margin: 0;
 }
-
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
 .btn-1{
   background-color: transparent;
   border: 5px solid white;

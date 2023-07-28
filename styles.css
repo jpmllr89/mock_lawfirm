@@ -169,7 +169,7 @@ nav{
 
 /* Second information section */
 
-.information-2 h2{
+.information-2 h2, .information-3 h2{
   text-align: center;
   color: var(--main-color);
   margin-bottom: var(--size-40);
@@ -286,4 +286,50 @@ nav{
 
 .information_specialties p{
   color: white;
+}
+
+/* links.html */
+.links{
+  justify-content: center;
+}
+.information_links{
+  text-align: center;
+  background-color: var(--background-color);
+  padding: 30px 0;
+  margin-top: -10px;
+}
+
+.information_links h2{
+  margin: 10px 0 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--main-color);
+  font-weight: 500;
+}
+
+.link-block{
+  margin: 0 auto;
+  max-width: 375px;
+}
+
+.link-block h5{
+  font-size: 20px;
+  color: darkslategray;
+  
+}
+.link-block ul li{
+  padding: 15px 3px 0;
+}
+
+.information-3{
+  background-color: var(--main-color);
+  padding: 40px;
+}
+
+.information-3 h2{
+  text-align: center;
+  color: white;
+  margin-bottom: var(--size-40);
+  font-size: var(--size-50);
+  font-weight: 500;
 }
