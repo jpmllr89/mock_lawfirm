@@ -292,14 +292,14 @@ nav{
 .links{
   justify-content: center;
 }
-.information_links{
+.information_links, .contact_form_area{
   text-align: center;
   background-color: var(--background-color);
   padding: 30px 0;
   margin-top: -10px;
 }
 
-.information_links h2{
+.information_links h2, .contact_form_area h2{
   margin: 10px 0 5px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -332,4 +332,55 @@ nav{
   margin-bottom: var(--size-40);
   font-size: var(--size-50);
   font-weight: 500;
+}
+
+/* contact-form page */
+.contact_form_area p{
+
+}
+
+.attention{
+  text-align: right;
+  color: var(--subtext);
+  font-size: 14px;
+  font-style: italic;
+}
+form#contact-form{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+form#contact-form .form_group{
+  margin: 20px 0;
+  padding: 0 15px;
+  text-align: left;
+}
+
+form#contact-form label{
+  color: slategray;
+  font-size: 20px;
+  margin: 0 0 8px;
+  font-weight: 500;
+}
+
+form#contact-form input{
+  width: 100%;
+  padding: 0 20px;
+  height: 50px;
+  border: 2px solid #ccc;
+  font-size: 1rem;
+  border-radius: 8px;
+  color: #777;
+  margin-top: 8px;
+}
+
+form#contact-form textarea{
+  width: 100%;
+  margin-top: 8px;
+}
+
+
+.contact_form_area p{
+  color: #66707E;
+  font-size: 20px;
+  margin: 20px 0;
 }
