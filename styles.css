@@ -1,6 +1,9 @@
 nav{
   background-color: var(--main-color);
   height: var(--size-100);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .toggle_button{
@@ -17,6 +20,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 0 var(--size-22);
+    position: sticky;
+    top: 0;
 }
 
 .navbar_logo img{
@@ -391,4 +396,28 @@ form#contact-form textarea{
   color: #66707E;
   font-size: 20px;
   margin: 20px 0;
+}
+
+#scrollup{
+  width: 60px;
+  height: 60px;
+  color: white;
+  background-color: #b2b8be;
+  /* display: block; */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+  transition: all 300ms ease; 
+  cursor: pointer;
+}
+
+#scrollup i{
+  position: relative;
+  top: 25%;
+  font-size: 26px;
+}
+
+#scrollup:hover{
+  background-color:#66707E;
 }
