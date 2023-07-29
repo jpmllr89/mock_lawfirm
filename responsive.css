@@ -1,9 +1,32 @@
 @media screen and (max-width: 900px){
-  .toggle_button{
-    display: block;
+  nav{
+    /* height: 200px; */
   }
-  .home_links{
-    display: none;
+  .--navbar, .--navbar.specialties{
+    display:flex;
+    flex-direction: column;
+    height: auto;
+    background-color: var(--main-color);
+    width: 100%;
+    margin: 0;
+    padding-bottom: 30px;
+  }
+  .hero{
+    margin-top: 100px;
+  }
+
+  .home_links ul,
+  .home_links.specialties ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    gap: 5px;
+  }
+
+  .home_links ul li,
+  .home_links.specialties ul li{
+    margin-top: 20px;
   }
 
   .information p{
@@ -41,7 +64,7 @@
   nav{
     height: 75px;
   }
-  .navbar_logo img{
+  .--navbar_logo img{
     max-height: 75px;
   }
 }
@@ -63,4 +86,26 @@
   a.right.carousel-control, a.left.carousel-control{
     background-image: unset;
   }
+  [aria-controls="navbarDropdown"]{
+    display: block;
+    border: none;
+    position: absolute;
+    top: var(--size-40);
+    right: var(--size-20);
+    color: var(--font-color-main);
+    background-color: transparent;
+    font-size: var(--size-16);
+  }
+
+  .navbar span{
+    cursor: pointer;
+    pointer-events: none;
+  }
+  .home_links ul,
+  .home_links.specialties ul{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero{margin-top: 210px;}
 }

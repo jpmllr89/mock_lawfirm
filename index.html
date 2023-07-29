@@ -19,6 +19,9 @@
         <div class="--navbar_logo">
           <img src="assets/images/gavel.jpeg" alt="">
         </div>
+        <a href="javascript:void(0);" class="--toggle_button" onclick="myFunction()">
+          <span>&#9776;</span>
+        </a>
         <div class="home_links">
           <ul>
             <li><a href="index.html">About Us</a></li>
@@ -26,11 +29,6 @@
             <li><a href="links.html">Helpful Links</a></li>
             <li><a href="contact.html" class="btn-1">Request a Consultation</a></li>
           </ul>
-        </div>
-        <div class="--toggle_button">
-          <a href="">
-            <span>&#9776;</span>
-          </a>
         </div>
       </div>
     </nav>
@@ -159,8 +157,19 @@
       </div>
     </div>
   </footer>
-  <div id="scrollup">
+  <a href="#top"id="scrollup">
     <i class="fa-solid fa-circle-arrow-up"></i>
-  </div>
+  </a>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementsByClassName("home_links");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+}
+  </script>
 </body>
 </html>

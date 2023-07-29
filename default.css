@@ -75,6 +75,10 @@ p{
   border-color: var(--emphasis_color);
 }
 
+.btn-1 a:hover{
+  color: var(--emphasis_color);
+}
+
 .btn-2{
   background-color: var(--emphasis_color);
   color: white;
