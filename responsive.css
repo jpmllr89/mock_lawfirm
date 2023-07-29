@@ -38,4 +38,29 @@
     max-width: 100%;
     flex: 0 0 100%;
   }
+  nav{
+    height: 75px;
+  }
+  .navbar_logo img{
+    max-height: 75px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .information_grid{
+    display: none;
+  }
+
+  #myCarousel{
+    display: block;
+    width: 100%;
+  }
+
+  span.glyphicon{
+    color: rgba(0, 0, 0, .7);
+  }
+
+  a.right.carousel-control, a.left.carousel-control{
+    background-image: unset;
+  }
 }

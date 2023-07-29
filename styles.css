@@ -1,20 +1,23 @@
-nav{
+nav, nav.specialties{
   background-color: var(--main-color);
-  height: var(--size-100);
+  height: auto;
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
-.toggle_button{
+
+
+.--toggle_button, .--toggle_button.specialties{
   display: none;
 }
 
-.toggle_button span{
+.toggle_button span, .--toggle_button.specialties span{
   font-size: 30px;
   color: white;
 }
-.navbar{
+
+.--navbar, .--navbar.specialties{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -24,20 +27,23 @@ nav{
     top: 0;
 }
 
-.navbar_logo img{
-  max-height: 90px;
+.--navbar_logo img, .--navbar_logo.specialties img{
+  max-height: 100px;
   width: auto;
   margin: auto 0;
-  object-position: ;
 }
 .home_links ul{
   display: flex;
   flex-direction: row;
   gap: var(--size-22);
 }
-.home_links ul li a{
+
+.home_links.specialties ul{
+  gap: 25px;
+}
+
+.home_links ul li a, .home_links.specialties ul li a{
   color: white;
-  font-size: var(--size-16);
   text-transform: uppercase;
 }
 
@@ -420,4 +426,8 @@ form#contact-form textarea{
 
 #scrollup:hover{
   background-color:#66707E;
+}
+
+#myCarousel{
+  display: none;
 }
