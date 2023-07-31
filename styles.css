@@ -11,6 +11,10 @@ nav, nav.specialties{
 }
 
 
+[aria-controls="navbarDropdown"]{
+  display: none;
+}
+
 
 .--toggle_button{
   display: none;
@@ -36,22 +40,22 @@ nav, nav.specialties{
   width: auto;
   margin: auto 0;
 }
-.home_links ul{
+.home_links{
   display: flex;
   flex-direction: row;
   gap: var(--size-22);
 }
 
-.home_links.specialties ul{
+.home_links.specialties{
   gap: 25px;
 }
 
-.home_links ul li a, .home_links.specialties ul li a{
+.home_links li a, .home_links.specialties li a{
   color: white;
   text-transform: uppercase;
 }
 
-.home_links.specialties ul li a{
+.home_links.specialties li a{
   font-size: 16px;
   text-decoration: none;
 }
