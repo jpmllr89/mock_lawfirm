@@ -160,14 +160,14 @@
   </a>
 
   <script>
-    function myFunction() {
-      var x = document.getElementsByClassName("home_links");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-}
+    const navButton = document.querySelector('button[aria=expanded]');
+
+    function toggleNav({ target }){
+      const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+      navButton.setAttribute('aria-expanded', !expanded);
+    }
+
+    navButton.addEventListener('click', toggleNav);
   </script>
 </body>
 </html>
