@@ -127,3 +127,7 @@ button{
   background-color: transparent;
   margin: 0;
 }
+
+.navbar-toggle span{
+  pointer-events: none;
+}

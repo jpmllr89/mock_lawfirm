@@ -22,12 +22,14 @@
         <button class="navbar-toggle" aria-expanded="false" aria-controls="navbarDropdown">
           <span>☰</span>
         </button>
-        <ul class="home_links">
-          <li><a href="index.html">About Us</a></li>
-          <li><a href="specialities.html">Our Specialties</a></li>
-          <li><a href="links.html">Helpful Links</a></li>
-          <li><a href="contact.html" class="btn-1">Request a Consultation</a></li>
-        </ul>
+        <div class="section_home_links">
+          <ul class="home_links specialties">
+            <li><a href="index.html">About Us</a></li>
+            <li><a href="specialities.html">Our Specialties</a></li>
+            <li><a href="links.html">Helpful Links</a></li>
+            <li><a href="contact.html" class="btn-1">Request a Consultation</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -160,7 +162,7 @@
   </a>
 
   <script>
-    const navButton = document.querySelector('button[aria=expanded]');
+    const navButton = document.querySelector('button[aria-expanded]');
 
     function toggleNav({ target }){
       const expanded = target.getAttribute('aria-expanded') === 'true' || false;

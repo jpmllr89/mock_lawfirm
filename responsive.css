@@ -16,12 +16,31 @@
     font-size: var(--size-20);
   }
 
-  [aria-expanded="false"] + ul{
+  [aria-controls="navbarDropdown"].specialties{
+    font-size: 30px;
+  }
+
+  [aria-expanded="false"] + div.section_home_links,
+  [aria-expanded="false"] + div.section_home_links.specialties{
     display: none;
   }
 
-  [aria-expanded="true"] + ul{
+  [aria-expanded="true"] + div.section_home_links{
     display: block;
+    position: absolute;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 75px;
+    justify-content: center;
+    left: 0;
+    display: flex;
+    background-color: var(--main-color);
+  }
+
+  [aria-expanded="true"] + div.section_home_links.specialties{
+    top:100px;
   }
 
   /* .--navbar, .--navbar.specialties{
@@ -87,6 +106,12 @@
   }
   .--navbar_logo img{
     max-height: 75px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .home_links{
+    flex-direction: column;
   }
 }
 
